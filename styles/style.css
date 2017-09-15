@@ -1,0 +1,101 @@
+@keyframes example {
+    0%   {background-color: #eef5ff;
+        background-clip: border-box}
+    25%  {background-color: #eefeff;}
+    50%  {background-color: #eefff5;}
+    100% {background-color: #eef0ff;}
+}
+
+
+
+body {
+    background-color: #EEF;
+    font-family: helvetica, sans-serif;
+    font-weight: 200;
+    color: #222;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+nav {
+/*    bottom-border: 2px solid #AAA;*/
+    box-shadow: #AAA 0px 5px 10px; 
+    padding: 20px 0;
+    font-size: 1.5em;
+}
+
+nav li {
+    display: inline;
+        margin: 0px 100px;
+}
+
+nav ul {
+    text-align: center;
+}
+.intro {
+    padding-top: 100px;
+    text-align: center;
+}
+
+nav a {
+    font-style: oblique;
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: 500; 
+}
+
+nav a:hover {
+    color: darkgoldenrod;
+    font-weight: 700;
+    text-shadow: #AAA 10px -20px 100px; 
+
+    
+}
+.intro .profile-pic {
+    display: block;
+    height: 300px;
+    border-radius: 100%;
+    background-image: url('../assets/on_computer.jpg') ;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+/*
+.intro .profile-pic :hover {
+    display: block;
+    background-image: url('../assets/on_computer.jpg') ;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+}
+*/
+
+.flavor-text h1 {
+    font-size: 2em;
+}
+
+hr {
+    
+    width: 60%;
+    color: #AAA;
+    margin-top: 75px;
+}
+
+.content {
+    padding: 75px;
+}
+
+.content section {
+    margin-top: 100px;
+}
+.content section img {
+    width: 500px;
+    border-radius: 25px;
+    box-shadow: #eee 10px -20px 50px; 
+}
+
+.content section:nth-of-type(even) img {
+    float: right;
+}
+
